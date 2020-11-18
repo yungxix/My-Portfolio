@@ -1,0 +1,604 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-size: 2em;
+    font-weight:bold;
+    color:#999;
+}
+
+section{
+    padding:100px;
+}
+.banner {
+    position:relative;
+    min-height: 100vh;
+    background-image: url("../images/Self.jpg");
+    background-size: auto;
+    background-attachment: fixed;
+    background-color:#000;
+    background-repeat:  no-repeat;
+    background-position: right;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .banner h5{
+    font-size: 1em;
+    color:#fff;
+    font-weight: 50%;
+    line-height: 1.5em;
+    
+}
+#arrow{
+    padding:0 6px;
+}
+.newsletter{
+    
+    color:#fff;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.newsletter:hover{
+    color:pink;
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+.neque{
+    font-size:1.3em;
+    font-weight:bold;
+    color:#fff;
+}
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:40px 100px;
+    z-index: 1000;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+header.sticky{
+    
+    background: #fff;
+    padding:20px 100px;
+    box-shadow:  0 5px 20px rgba(0,  0, 0, 0.1);
+}
+ 
+header .sticky .logo a{
+   color:#000;
+}
+ header .logo{
+     background-color:#000;
+     color:#fff;
+     font-size: 24px;
+     text-transform: uppercase;
+     text-decoration: none;
+     font-weight: 700;
+     letter-spacing: 2px;
+ }
+
+ 
+
+ header ul {
+     position:relative;
+     display: flex;
+ }
+ header ul li{
+     position: relative;
+     list-style: none;
+ }
+header ul li a{
+    position:relative;
+    display: inline-block;
+    margin:0 15px;
+    color:#fff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+header.sticky ul li a {
+    color:#111;
+}
+ 
+#colox {
+    color:#fff;
+}
+.banner h2{
+    font-size: 3em;
+    color:#fff;
+    font-weight: 50%;
+    line-height: 1.5em;
+}
+
+.banner h2 span{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.banner h3{
+    font-size: 2em;
+    color:#fff;
+    font-weight: 1000;
+}
+
+.btn {
+    position:relative;
+    background: red;    /*#2196f3*/;
+    display:inline-block;
+    color:#000;
+    margin:20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration:none;
+    letter-spacing: 2px;
+    font-weight:500;
+}
+.heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color:#111;
+}
+
+.heading h2{
+   font-weight: 600;
+   font-size: 30;
+}
+.heading .lio{
+    color:#222;
+}
+.content{
+    display:flex;
+    justify-content: space-between;
+}
+
+.contentBx{
+    padding-right: 70px;
+}
+ .poppins {
+     font-family:'Poppins',sans-serif;
+     font-style: italic;
+     font-size:1.5em;
+     font-weight: bold;
+     color:slategray;
+ }
+.contentBx  h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.w50{
+    min-width: 50%;
+}
+
+img{
+width: 400px;
+height:400px;
+}
+
+
+.services{
+    background:#000;
+}
+ .heading{
+   color:#fff;
+}
+.services .heading-white{
+    justify-content: center;
+    align-items: center;
+
+}
+
+.services .content{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.services .content .servicesBx{
+    padding: 40px 20px;
+    background:#222;
+    color:#fff;
+    max-width: 340px;
+    margin: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.services .content .servicesBx:hover{
+  background:#2196f3;
+}
+.services .content .servicesBx img{
+    filter: invert(1);
+    width:100px;
+    height:100px;
+}
+
+.services .content .servicesBx .h2 {
+    font-size:20px;
+    font-weight: 600;
+    margin-bottom:13px;
+    color:#222
+}
+
+.services .content .servicesBx p{
+    margin-top:10px;
+}
+
+.servo {
+    margin-top: 10px;
+}
+.servi{
+    font-weight: 800;
+
+}
+.work{
+    background:#fff;  
+    justify-content: center;
+    align-items: center; 
+}
+.work .lix h4{
+    font-size: 3em;
+    font-weight: 600;
+    font-family: 'Montserrat-bold',sans-serif;
+    color: rebeccapurple;
+    justify-content: center;
+    align-items: center;
+}
+.work .lix .para-1{
+     color:#222;
+     font-style: italic;
+     font-weight: bold;
+}
+.work .lix img{
+    display:inline-block;
+    width:120px;
+    height:120px;
+    margin: 20px 10px;
+ 
+}
+
+.get {
+    color:#fff;
+    font-size:30px;
+    font-weight: 400;
+}
+
+/*
+.project{
+
+    padding:20px;
+    width:1280px;
+    margin:40px auto;
+
+}
+
+.project ul{
+    display:flex;
+    margin-bottom:10px;
+} 
+
+.project ul li {
+    list-style: none;
+    background:#eee;
+    padding:8px 20px;
+    margin: 5px;
+    letter-spacing:1px;
+    cursor: pointer;
+}
+.project ul li.active{
+    background: #03a9f4;
+    color:#fff;
+}
+
+.product{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.product .itemBox{
+    position: relative;
+    width:300px;
+    height: 300px;
+    margin:5px;
+}
+.product .itemBox img {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+*/
+.testimonial {
+    background: #f7f7f7;
+}
+
+.testimonial .content {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.testimonial .content .testimonialBx{
+    max-width: calc(50% -  40px);
+    padding:60px 40px;
+    margin:20px;
+    background: #2196f3;
+}
+.testimonial .content .testimonialBx p{
+    color:#fff;
+    font-style: italic;
+    font-size: 22px;
+    font-weight: 600;
+}
+.testimonial .content .testimonialBx h3{
+    margin-top:  40px;
+    text-align: end;
+    color:beige;
+    font-weight:600;
+    font-size: 20px;
+    line-height:1em
+}
+.testimonial .content .testimonialBx h3 span {
+ font-size:14px;
+ font-weight: 400;
+}
+
+ 
+
+.contact{
+    background:#111;
+}
+.formBx{
+    min-width: 60%;
+}
+
+.formBx form{
+    display:flex;
+    flex-direction: column;
+}
+
+.formBx form h3, .contactInfo h3{
+    color:#fff;
+    font-size:20px;
+    font-weight: 500;
+    margin-bottom:  10px;
+}
+
+.formBx form input,.formBx form textarea {
+    margin-bottom:20px;
+    padding:15px;
+    font-size: 16px;
+    background:transparent;
+    border: none;
+    outline: none;
+    background:#222;
+    color:#fff;
+    resize: none;
+}
+
+.formBx form textarea{
+    min-height: 200px;
+}
+
+.formBx form input::placeholder,
+.formBx form textarea::placeholder{
+    color:#999;
+}
+
+.formBx form input[type="submit"] {
+                  max-width: 100px;
+                  background: #2196f3;
+                  cursor: pointer;
+                  text-transform: uppercase;
+                  letter-spacing: 2px;
+}
+
+.contactInfo {
+    min-width: 40%;
+
+}
+
+.contactInfoBx {
+    position: relative;
+
+}
+
+.contactInfoBx .box{
+    position: relative;
+    padding:20px 0;
+    display: flex;
+}
+.connect{
+    color:lavenderblush;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.contactInfoBx .box .icon {
+    min-width: 40px;
+    padding-top:4px;
+    color:#fff;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 24px;
+}
+.contactInfoBx .box .text{
+    display:flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color:#fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.contactInfoBx .box .text h3{
+    font-weight: 500;
+    color:#2196f3;
+    margin-bottom: 0;
+}
+
+.lance {
+    font-size: 2em;
+    color:#fff;
+    cursor:pointer;
+
+}
+.lance:hover{
+    color:#2196f3
+}
+
+.copyright{
+    background: #000;
+    color:#fff;
+    text-align: center;
+    padding:10px;
+}
+
+/* Media Query */
+
+@media (max-width:991px) {
+    header,
+     header.sticky{
+        padding:20px 50px;
+        z-index: 1000;
+    }
+    .menu {
+        position:fixed;
+        top:75px;
+        left:-100%;
+        display: block;
+        padding: 100px 50px;
+        text-align:center;
+        width: 100%;
+        height: 100vh;
+        background:#fff;
+        transition: 0.5s;
+        z-index: 999;
+        border-top: 1px solid rgba(0, 0,0, 0.2);
+    }
+
+    .menu.active{
+        left:0;
+    }
+
+    header ul li a{
+        color:#111;
+        font-size:24px;
+        margin:10px;
+    }
+    .toggle {
+        width: 40px;
+        height:40px;
+        background: url(../images/menu.png);
+        color:#222;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        cursor: pointer;
+    }
+    .toggle.active {
+        background: url(../images/close.png);
+        background-position: center;
+        color:#222;
+        background-repeat: no-repeat;
+        background-size: 25px;
+        cursor: pointer;
+    }
+    header.sticky .toggle{
+        filter: invert(1);
+    }
+
+    section {
+        padding:100px 50px;
+    }
+
+    .banner {
+        padding: 150px 50px 100px;
+    }
+    .banner h2{
+        font-size:1.5em;
+    }
+    .banner h3{
+        font-size: 1.2em;
+    }
+    .btn {
+        margin-top: 10px;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .heading h2 {
+        font-weight: 600;
+    }
+
+    .contentBx h3 {
+        font-size:20px;
+    }
+    .content {
+        flex-direction: column;
+    }
+
+    .w50{
+        margin-bottom:20px;
+
+    }
+    .services .content .servicesBx{
+        margin:10px;
+    }
+.services .content .workBx{
+    width:100%;
+    padding: 10px;
+}
+
+.testimonial .content .testimonialBx{
+    max-width: calc(100% - 20px);
+    padding: 40px 20px;
+    margin: 10px;
+    background:#2196f3;
+}
+
+.testimonial .content .testimonialBx h3{
+    margin-top: 20px;
+}
+
+.contactInfo {
+    min-width: 40%;
+    margin:20px 0;
+}
+}
+
+@media (max-width: 600px) {
+    header,header.sticky{
+        padding:20px 20px;
+        z-index: 1000;
+    }
+
+    .banner{
+        padding:150px 20px 100px;
+    }
+
+    section{
+        padding: 100px 20px;
+    }
+}
